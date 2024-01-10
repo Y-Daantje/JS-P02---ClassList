@@ -16,7 +16,7 @@ btn.addEventListener("click", function () {
 
 
 //opdr3
-// let toggle = true;
+//  toggle = true;
 // btn.addEventListener("click", function () {
 //     if (toggle) {
 //         div.classList.add("error");
@@ -35,3 +35,8 @@ btn.addEventListener("click", function () {
 // changeBtn.addEventListener("click", function () {
 //     div.classList.remove("error");
 // })
+
+function saySomthing(params) {
+    document.body.innerHTML += '<h2>' + params + '</h2>'
+}
+saySomthing('Hello World');
